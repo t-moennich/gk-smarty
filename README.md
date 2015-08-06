@@ -6,14 +6,14 @@ GkSmarty is a module for integrating the [Smarty](http://www.smarty.net) templat
 
 Installing via [Composer](http://getcomposer.org) is the only supported method.
 
- 1. Add `"gkralik/gk-smarty": "dev-master"` to your `composer.json` file and run `php composer.phar update`.
+ 1. Add `"t-moennich/gk-smarty": "dev-master"` to your `composer.json` file and run `php composer.phar update`.
  2. Add `GkSmarty` to your application's `config/application.config.php` file under the `modules` key.
 
 ## Configuration
 
-For information on configuring GkSmarty, refer to the [module config file](https://github.com/gkralik/gk-smarty/tree/master/config/module.config.php).
+For information on configuring GkSmarty, refer to the [module config file](https://github.com/t-moennich/gk-smarty/tree/master/config/module.config.php).
 
-There is also a [sample configuration file](https://github.com/gkralik/gk-smarty/tree/master/config/gk-smarty.config.php.dist) with all available configuration options.
+There is also a [sample configuration file](https://github.com/t-moennich/gk-smarty/tree/master/config/gk-smarty.config.php.dist) with all available configuration options.
 
 You can set options for the Smarty engine under the `smarty_options` configuration key (eg `force_compile`, etc).
 
